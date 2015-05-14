@@ -5,13 +5,13 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 "Bundle
-Plugin 'chriskempson/base16-vim'
+"Plugin 'chriskempson/base16-vim'
 Plugin 'solarized.vim'
 
 "View
-set background=dark
-"colorscheme base16-default
 syntax enable
+"set background=dark
+"colorscheme base16-default
 "Tabs
 set tabstop=4
 set softtabstop=4

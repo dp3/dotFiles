@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/net/files.cis.ksu.edu/exports/home/d/dp3atksu/KSU Work'
+let g:netrw_dirhist_2='/net/files.cis.ksu.edu/exports/home/d/dp3atksu/.irssi'
+let g:netrw_dirhist_3='/net/files.cis.ksu.edu/exports/home/d/dp3atksu/KSU Work/mysql_migration'

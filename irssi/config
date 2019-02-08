@@ -101,11 +101,14 @@ chatnets = {
 };
 
 channels = (
-  { name = "#ksucis-dudes"; chatnet = "freenode"; autojoin = "yes"; },
-  { name = "#ksucdc"; chatnet = "freenode"; autojoin = "yes"; },
+  ##{ name = "#ksucis-dudes"; chatnet = "freenode"; autojoin = "yes"; },
+  ##{ name = "#ksucdc"; chatnet = "freenode"; autojoin = "yes"; },
+  { name = "#mechkbd"; chatnet = "freenode"; autojoin = "yes"; },
   { name = "#k-slug"; chatnet = "freenode"; autojoin = "yes"; },
-  { name = "#lobby"; chatnet = "home.mineoas.us"; autojoin = "yes"; },
-  { name = "#ksucis"; chatnet = "freenode"; autojoin = "yes"; },
+  #  { name = "#lobby"; chatnet = "home.mineoas.us"; autojoin = "yes"; },
+  ##{ name = "#ksucis"; chatnet = "freenode"; autojoin = "yes"; },
+  { name = "#reprap"; chatnet = "freenode"; autojoin = "yes"; },
+  #{ name = "#dp3atksu"; chatnet = "freenode"; autojoin = "yes"; },
   { name = "silc"; chatnet = "silc"; autojoin = "No"; }
 );
 
@@ -275,8 +278,8 @@ statusbar = {
 settings = {
   core = {
     real_name = "devon";
-    user_name = "dp3atksu";
-    nick = "dp3atksu";
+    user_name = "dp3";
+    nick = "dp3";
     log_timestamp = "%H:%M:%S ";
     recode_autodetect_utf8 = "yes";
     recode_fallback = "ISO-8859-15";
@@ -297,3 +300,4 @@ settings = {
 };
 
 logs = { };
+#ignores = ( { level = "JOINS QUITS"; channels = ( "#k-slug" ); } );

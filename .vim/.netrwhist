@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/usr/local/www/research/i-center'
+let g:netrw_dirhist_2='/usr/local/www/onlinehw/core'
+let g:netrw_dirhist_3='/usr/local/www/events/edit'
+let g:netrw_dirhist_4='/misc/fileshome/dp3atksu/work/archive.git/archival'
+let g:netrw_dirhist_5='/usr/local/www/events/edit'
+let g:netrw_dirhist_6='/usr/local/www/events/news'
+let g:netrw_dirhist_7='/usr/local/www/courses'
+let g:netrw_dirhist_8='/etc/apache2/conf.d'

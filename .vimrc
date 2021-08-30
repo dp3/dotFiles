@@ -11,6 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'vim-airline/vim-airline'
+"Plugin 'othree/html5.vim'
 
 "sudo apt install build-essential cmake vim-nox python3-dev
 "sudo apt install mono-complete golang nodejs default-jdk npm
@@ -26,13 +27,17 @@ set number
 set showcmd
 set mouse=a
 
-
-set expandtab
-"set smartindent
 "set tabstop=1
+
 set shiftwidth=2
 set softtabstop=2
+set tabstop=2 
 
+"set expandtab
+"set smartindent
+"set tabstop=1
+
+autocmd Filetype html setlocal ts=2 sw=2 expandtab
 
 "power line
 set laststatus=2
